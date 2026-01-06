@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    text-align: center;
+}
+
+.card {
+    background: white;
+    margin: 80px auto;
+    padding: 25px;
+    width: 85%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    animation: zoom 1.5s;
+}
+
+h1 {
+    color: #ff1493;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+.dua {
+    color: #008000;
+    font-weight: bold;
+}
+
+@keyframes zoom {
+    from {transform: scale(0);}
+    to {transform: scale(1);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1>🎉 Happy Birthday 🎉</h1>
+
+    <p>Dear <b>Friend Name</b> 💖</p>
+
+    <p>
+        Allah aap ko hamesha khush rakhe,<br>
+        sehat, kamyabi aur lambi zindagi ata kare 🌸
+    </p>
+
+    <p class="dua">
+        Ameen 🤲
+    </p>
+
+    <p>
+        Stay blessed & keep smiling ✨🎂
+    </p>
+</div>
+
+</body>
+</html>
